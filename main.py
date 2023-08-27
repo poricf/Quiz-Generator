@@ -29,7 +29,7 @@ async def cancel(update : Update , context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
 
-    application    = ApplicationBuilder().token('6642515497:AAF98LdtzyUERaAxb23LCm-zXwJEtiiIQms').build()
+    application    = ApplicationBuilder().token('TOKEN').build()
     start_handler  = CommandHandler('start', start)
     help_handler   = CommandHandler("help", help)
     quiz_handler   = CommandHandler("generate_quiz", generate_quiz)
